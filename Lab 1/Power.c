@@ -24,6 +24,6 @@ int main()
     double time_taken = (double)(end - start) / CLOCKS_PER_SEC;
     printf("The power of %d raised to %d is: %d\n", base, exp, result);
     printf("Time taken to calculate: %f seconds\n", time_taken);
-    
+
     return 0;
 }
